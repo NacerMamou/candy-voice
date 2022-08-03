@@ -1,0 +1,47 @@
+#homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .user-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2vw;
+    flex-wrap: wrap;
+    color: white;
+    & h2 {
+      display: flex;
+      font-size: 2vw;
+      font-weight: 800;
+      width: 100%;
+      margin-bottom: 0.8vw;
+    }
+    & div {
+      display: flex;
+      width: 48%;
+      font-size: 1vw;
+      margin-bottom: 0.5vw;
+    }
+  }
+  .voices-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2vw;
+    flex-wrap: wrap;
+    color: white;
+    & h2 {
+      display: flex;
+      font-size: 2vw;
+      font-weight: 800;
+      width: 100%;
+      margin-bottom: 0.8vw;
+    }
+    @include voice-card-style;
+  }
+
+  @media all and (max-width: 1025px) {
+  }
+  @media all and (max-width: 577px) {
+  }
+}

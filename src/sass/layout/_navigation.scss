@@ -1,0 +1,32 @@
+#navigation {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3vw;
+  align-items: center;
+  .logo-container {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    & img {
+      display: flex;
+      height: 5vw;
+    }
+  }
+  .navlinks-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    & a {
+      text-decoration: none;
+      color: white;
+      margin-right: 3vw;
+      font-size: 1.3vw;
+    }
+  }
+
+  @media all and (max-width: 1025px) {
+  }
+  @media all and (max-width: 577px) {
+  }
+}

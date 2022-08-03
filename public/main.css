@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM+Sans", cursive;
+}
+
+#navigation {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3vw;
+  align-items: center;
+}
+#navigation .logo-container {
+  display: flex;
+  width: 40%;
+  align-items: center;
+}
+#navigation .logo-container img {
+  display: flex;
+  height: 5vw;
+}
+#navigation .navlinks-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 60%;
+}
+#navigation .navlinks-container a {
+  text-decoration: none;
+  color: white;
+  margin-right: 3vw;
+  font-size: 1.3vw;
+}
+#homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#homepage .user-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2vw;
+  flex-wrap: wrap;
+  color: white;
+}
+#homepage .user-container h2 {
+  display: flex;
+  font-size: 2vw;
+  font-weight: 800;
+  width: 100%;
+  margin-bottom: 0.8vw;
+}
+#homepage .user-container div {
+  display: flex;
+  width: 48%;
+  font-size: 1vw;
+  margin-bottom: 0.5vw;
+}
+#homepage .voices-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2vw;
+  flex-wrap: wrap;
+  color: white;
+}
+#homepage .voices-container h2 {
+  display: flex;
+  font-size: 2vw;
+  font-weight: 800;
+  width: 100%;
+  margin-bottom: 0.8vw;
+}
+#homepage .voices-container .voice-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 1px solid white;
+  border-radius: 0.4vw;
+  margin: 0 1vw 1vw 0;
+}
+#homepage .voices-container .voice-container div {
+  padding: 0.5vw 0;
+  font-size: 1vw;
+}
+#login-page {
+  display: flex;
+  width: 100%;
+}
+#login-page form {
+  display: flex;
+  width: 100%;
+}
+#login-page form .email-container,
+#login-page form .password-container {
+  display: flex;
+  width: 38%;
+}
+#login-page form .email-container label,
+#login-page form .password-container label {
+  font-size: 1vw;
+  margin-right: 0.5vw;
+}
+#login-page form .email-container input,
+#login-page form .password-container input {
+  display: flex;
+  width: 55%;
+}
+#login-page form .submit-button {
+  display: flex;
+  width: 20%;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #715b9e;
+  padding: 0 18vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

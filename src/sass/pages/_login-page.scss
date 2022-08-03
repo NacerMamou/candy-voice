@@ -1,0 +1,25 @@
+#login-page {
+  display: flex;
+  width: 100%;
+  & form {
+    display: flex;
+    width: 100%;
+    .email-container,
+    .password-container {
+      display: flex;
+      width: 38%;
+      & label {
+        font-size: 1vw;
+        margin-right: 0.5vw;
+      }
+      & input {
+        display: flex;
+        width: 55%;
+      }
+    }
+    .submit-button {
+      display: flex;
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+// This main file decribes the architecture of each page
+@import "./utils/variables";
+@import "./base/typography";
+
+@import "./layout/navigation";
+@import "./components/voice-card";
+@import "./pages/home-page";
+
+@import "./pages/login-page";
+
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #715b9e;
+  padding: 0 18vw;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  @media all and (max-width: 1025px) {
+  }
+  @media all and (max-width: 577px) {
+  }
+}
